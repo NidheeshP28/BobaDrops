@@ -7,6 +7,9 @@
 <head>
     <title>Nidheesh Pusuluri</title>
     <link rel="stylesheet" href="../style.css">
+    <style>
+        
+    </style>
 </head>
 <body>
     <nav>
