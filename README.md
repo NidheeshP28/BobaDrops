@@ -1,8 +1,6 @@
 # BobaDrops
 <uses-permission android:name="android.permission.INTERNET" />
 <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="match_parent" />
-
-<!DOCTYPE html>
 <html>
 <head>
     <title>Nidheesh Pusuluri</title>
