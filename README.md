@@ -1,99 +1,97 @@
-# BobaDrops
 <uses-permission android:name="android.permission.INTERNET" />
 <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="match_parent" />
 <html>
-<head>
-    <title>Nidheesh Pusuluri</title>
-    <link rel="stylesheet" href="../style.css">
-    <style>
-        @font-face {
-          font-family: 'Souvenir';
-          src: url('fonts/Souvenir-Bold.woff2') format('woff2'),
-               url('fonts/Souvenir-Bold.woff') format('woff');
-          font-weight: bold;
-          font-style: normal;
-        }
-        @font-face {
-          font-family: 'GillSans';
-          src: url('fonts/GillSans-Regular.woff2') format('woff2'),
-               url('fonts/GillSans-Regular.woff') format('woff');
-          font-weight: normal;
-          font-style: normal;
-        }
-        :root {
-          --primary-color: #edce93;
-          --primary-light: #f5e6b2;
-          --primary-dark: #d4b56f;
-        }
-        body {
-          text-align: center;
-          margin: 0;
-          font-family: 'GillSans', sans-serif;
-          background-color: var(--primary-light);
-        }
-        nav {
-          background-color: #000000;
-          padding: 15px 0;
-        }
-        nav ul {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-          display: flex;
-          justify-content: center;
-          gap: 40px;
-        }
-        nav ul li a {
-          color: white;
-          text-decoration: none;
-          font-size: 20px;
-          font-weight: 600;
-          transition: transform 0.3s ease, color 0.3s ease;
-          display: inline-block;
-        }
-        nav ul li a:hover {
-          color: var(--primary-color);
-          transform: scale(1.2);
-        }
-        h1 {
-          font-size: 100px;
-          font-family: 'Souvenir', serif;
-          margin-bottom: 0;
-        }
-        p {
-          font-size: 45px;
-          font-family: 'GillSans', sans-serif;
-          font-weight: 700;
-          margin-top: 0;
-        }
-        img {
-          width: 250px;
-          display: block;
-          margin: 20px auto;
-        }
-    </style>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <img src="bobapic.jpg" alt="Boba Pic" width="250">
-    <h1>Nidheesh Pusuluri</h1>
-    <p>Hello, My name is Nidheesh!
-    <br>I am currently a Freshmen in high school.
-    <br>I like coding and photography.
-    <br>I am passionate of being a Game Developer.</p>
-    <br>
-    <br>
-    <p>Here are my achievements that I have won from Hack Club
-    <br>WAPTSA: <a href="https://www.wastatepta.org/events-programs/student-showcase/">Top Middle School Team Game (22-23)</a>
-    <br>Sprig: <a href="https://sprig.hackclub.com/gallery/play/CATCH-ME">Catch Me (22-23)</a>
-    <br>Seattle Campfire: <a href="https://nidheeshp28.itch.io/bob-the-fish-with-legs">Bob (the fish w legs) and Gary (the cat) (25-26)</a></p>
-
-</body>
+    <head>
+        <title>Nidheesh Pusuluri</title>
+        <link rel="stylesheet" href="../style.css">
+        <style>
+            @font-face {
+              font-family: 'Souvenir';
+              src: url('fonts/Souvenir-Bold.woff2') format('woff2'),
+                   url('fonts/Souvenir-Bold.woff') format('woff');
+              font-weight: bold;
+              font-style: normal;
+            }
+            @font-face {
+              font-family: 'GillSans';
+              src: url('fonts/GillSans-Regular.woff2') format('woff2'),
+                   url('fonts/GillSans-Regular.woff') format('woff');
+              font-weight: normal;
+              font-style: normal;
+            }
+            :root {
+              --primary-color: #edce93;
+              --primary-light: #f5e6b2;
+              --primary-dark: #d4b56f;
+            }
+            body {
+              text-align: center;
+              margin: 0;
+              font-family: 'GillSans', sans-serif;
+              background-color: var(--primary-light);
+            }
+            nav {
+              background-color: #000000;
+              padding: 15px 0;
+            }
+            nav ul {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              display: flex;
+              justify-content: center;
+              gap: 40px;
+            }
+            nav ul li a {
+              color: white;
+              text-decoration: none;
+              font-size: 20px;
+              font-weight: 600;
+              transition: transform 0.3s ease, color 0.3s ease;
+              display: inline-block;
+            }
+            nav ul li a:hover {
+              color: var(--primary-color);
+              transform: scale(1.2);
+            }
+            h1 {
+              font-size: 100px;
+              font-family: 'Souvenir', serif;
+              margin-bottom: 0;
+            }
+            p {
+              font-size: 45px;
+              font-family: 'GillSans', sans-serif;
+              font-weight: 700;
+              margin-top: 0;
+            }
+            img {
+              width: 250px;
+              display: block;
+              margin: 20px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="bobapic.jpg" alt="Boba Pic" width="250">
+        <h1>Nidheesh Pusuluri</h1>
+        <p>Hello, My name is Nidheesh!
+        <br>I am currently a Freshmen in high school.
+        <br>I like coding and photography.
+        <br>I am passionate of being a Game Developer.</p>
+        <br>
+        <br>
+        <p>Here are my achievements that I have won from Hack Club
+        <br>WAPTSA: <a href="https://www.wastatepta.org/events-programs/student-showcase/">Top Middle School Team Game (22-23)</a>
+        <br>Sprig: <a href="https://sprig.hackclub.com/gallery/play/CATCH-ME">Catch Me (22-23)</a>
+        <br>Seattle Campfire: <a href="https://nidheeshp28.itch.io/bob-the-fish-with-legs">Bob (the fish w legs) and Gary (the cat) (25-26)</a></p>
+    </body>
 </html>
