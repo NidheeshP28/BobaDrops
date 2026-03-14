@@ -17,7 +17,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-    <img src="/bobapic.jpg" alt="Boba Pic" width="250">
+    <img src="bobapic.jpg" alt="Boba Pic" width="250">
     <h1>Nidheesh Pusuluri</h1>
     <p>Hello, My name is Nidheesh!
     <br>I am currently a Freshmen in high school.
